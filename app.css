@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+}
+
+header {
+  text-align: center;
+  padding: 30px;
+  background: linear-gradient(90deg, #ff512f, #dd2476);
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  width: 200px;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  background: #f1f1f1;
+}
+
+.card h2 {
+  color: #333;
+}
+
+.card p {
+  color: green;
+  font-size: 18px;
+}
+
+button {
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #ff512f, #dd2476);
+}
+
+.cart {
+  background: white;
+  margin: 30px auto;
+  width: 60%;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+
+.checkout {
+  background: green;
+  margin-top: 10px;
+}
+
+.checkout:hover {
+  background: darkgreen;
+}
